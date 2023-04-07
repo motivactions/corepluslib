@@ -1,0 +1,17 @@
+{% extends 'base_site_two.html' %}
+
+{% block bodyclass %}bg-white{% endblock %}
+
+{% block breadcrumb_items %}
+  {% if self.get_ancestors|length > 1 %}
+    {% for p in self.get_ancestors %}
+      {% if p.is_root is False %}
+        <li class="breadcrumb-item" aria-current="page"><a class="link-light" href="{{ p.url }}">{{ p.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  <li class="breadcrumb-item active">{{ self.title }}</li>
+{% endblock  %}
+
+{% block main_column_class %}col-lg-9{% endblock %}
+{% block side_column_class %}col-lg-3 mt-lg-n9{% endblock %}

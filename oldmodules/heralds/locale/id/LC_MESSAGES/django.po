@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-09 09:53+0000\n"
+"PO-Revision-Date: 2022-11-10 15:44+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: coreplus/heralds/api/v1/viewsets.py:75
+msgid "Created a new direct message"
+msgstr "Buat direct message baru"
+
+#: coreplus/heralds/api/v1/viewsets.py:96
+#: coreplus/heralds/api/v1/viewsets.py:97
+msgid "Failed to create direct message"
+msgstr "Gagal membuat direct message"
+
+#: coreplus/heralds/api/v1/viewsets.py:140
+msgid "Added reaction to a direct message"
+msgstr "Menambahkan reaksi ke direct message"
+
+#: coreplus/heralds/api/v1/viewsets.py:157
+msgid "Deleted reaction from a direct message"
+msgstr "Menghapus reaksi dari direct message"
+
+#: coreplus/heralds/apps.py:10
+msgid "CorePlus Herald"
+msgstr "CorePlus Herald"
+
+#: coreplus/heralds/models.py:24
+msgid "read"
+msgstr "read"
+
+#: coreplus/heralds/models.py:25
+msgid "unread"
+msgstr "unread"
+
+#: coreplus/heralds/models.py:44
+msgid "Content"
+msgstr "Content"
+
+#: coreplus/heralds/models.py:51
+msgid "Content Html"
+msgstr "Content Html"
+
+#: coreplus/heralds/models.py:57
+msgid "Direct Message"
+msgstr "Direct Message"
+
+#: coreplus/heralds/models.py:58
+msgid "Direct Messages"
+msgstr "Direct Message"
+
+#: coreplus/heralds/models.py:92
+msgid "Direct Message Attachment"
+msgstr "Direct Message Attachment"
+
+#: coreplus/heralds/models.py:93
+msgid "Direct Message Attachments"
+msgstr "Direct Message Attachment"

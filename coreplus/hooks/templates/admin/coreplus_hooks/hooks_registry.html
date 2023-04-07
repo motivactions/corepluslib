@@ -1,0 +1,22 @@
+{% extends 'admin/base_site.html' %}
+
+{% block content %}
+  {% block object-tools %}{% endblock %}
+  {% for hookname, hooks in hook_list.items %}
+    <div>
+      <h3>{{ hookname }}</h3>
+      <ul>
+        {% for hook in hooks %}
+          <li>
+            <div><strong>Order:</strong> {{ hook.order }}</div>
+            <div><strong>Function:</strong> {{ hook.function }}</div>
+            <div><strong>Module:</strong> {{ hook.module }}</div>
+            <div><strong>Documentation:</strong> {% firstof hook.documentation '-' as doc %}{{ doc }}</div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+{% endblock %}
+
+{% block sidebar %}{% endblock %}

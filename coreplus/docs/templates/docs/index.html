@@ -1,0 +1,18 @@
+{% extends './_base_one.html' %}
+{% load i18n %}
+{% block page_title %}
+  <h1 class="display-6 text-center">{% trans "CorePlus Documentation" %}</h1>
+{% endblock page_title %}
+
+{% block page_summary %}
+  <div class="text-center">
+    <div class="mb-3">{% trans "API Documentation & Developer Guide." %}</div>
+    <a class="btn btn-lg btn-primary" href="{% url 'v1:redoc' %}">{% trans "API Documentation" %}</a>
+  </div>
+
+{% endblock page_summary %}
+
+
+{% block main_column %}
+  
+{% endblock main_column %}

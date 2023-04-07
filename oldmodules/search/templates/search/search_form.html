@@ -1,0 +1,11 @@
+{% load i18n widget_tweaks %}
+<form method="get" action="{% url 'coreplus_search' %}">
+  
+  <div class="input-group input-group-lg mb-3">
+    <label for="id_q" id="basic-addon1" class="input-group-text"><i class="mdi mdi-magnify"></i></label>
+    {% render_field form.q class="form-control" placeholder=placeholder %}
+    {% if form.models %}
+      {% render_field form.models %}
+    {% endif %}
+  </div>
+</form>

@@ -1,0 +1,43 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "<=4.1,>=3.2.8"
+django-mptt = "*"
+django-phonenumber-field = "*"
+django-polymorphic = "*"
+django-filter = "*"
+drf-spectacular = "*"
+djangorestframework = "*"
+drf-spectacular-sidecar = "*"
+easy-thumbnails = "*"
+babel = "*"
+bleach = "*"
+boto3 = "*"
+mistune = "==2.0.4"
+phonenumbers = "*"
+pillow = "*"
+pycountry = "*"
+qrcode = "*"
+whoosh = "*"
+geopy = "*"
+langdetect = "*"
+scikit-learn = "*"
+
+[dev-packages]
+black = {extras = [ "jupyter",]}
+coverage = "*"
+docutils = "*"
+factory-boy = "*"
+flake8 = "*"
+flake8-debugger = "*"
+ipython = "*"
+isort = "*"
+jupyter = "*"
+pre-commit = "*"
+twine = "*"
+
+[requires]
+python_version = "3.8"

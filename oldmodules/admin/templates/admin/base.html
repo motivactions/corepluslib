@@ -1,0 +1,116 @@
+{% extends 'admin/base.html' %}
+{% load static i18n %}
+
+{% block extrahead %}
+  {{ block.super }}
+  <script defer src="{% static 'coreplus_admin/js/alpine.min.js' %}"></script>
+  <script src="{% static 'coreplus_admin/js/htmx.min.js' %}"></script>
+{% endblock %}
+
+{% block extrastyle %}
+<style>
+  :root {
+    --primary: #3a9ade;
+    --secondary: #0078b8;
+    --accent: #daba0e;
+    --primary-fg: #fff;
+    --body-fg: #333;
+    --body-bg: #fff;
+    --body-quiet-color: #666;
+    --body-loud-color: #000;
+    --header-color: #ffc;
+    --header-branding-color: var(--accent);
+    --header-bg: var(--secondary);
+    --header-link-color: var(--primary-fg);
+    --breadcrumbs-fg: #c4dce8;
+    --breadcrumbs-link-fg: var(--body-bg);
+    --breadcrumbs-bg: var(--primary);
+    --link-fg: #447e9b;
+    --link-hover-color: #036;
+    --link-selected-fg: #376db5;
+    --hairline-color: #e8e8e8;
+    --border-color: #ccc;
+    --error-fg: #ba2121;
+    --message-success-bg: #dfd;
+    --message-warning-bg: #ffc;
+    --message-error-bg: #ffefef;
+    --darkened-bg: #f8f8f8;
+    --selected-bg: #e4e4e4;
+    --selected-row: #ffc;
+    --button-fg: #fff;
+    --button-bg: var(--primary);
+    --button-hover-bg: #609ab6;
+    --default-button-bg: var(--secondary);
+    --default-button-hover-bg: #205067;
+    --close-button-bg: #888;
+    --close-button-hover-bg: #747474;
+    --delete-button-bg: #ba2121;
+    --delete-button-hover-bg: #a41515;
+    --object-tools-fg: var(--button-fg);
+    --object-tools-bg: var(--close-button-bg);
+    --object-tools-hover-bg: var(--close-button-hover-bg);
+  }
+  #header {
+    padding: 20px 40px;
+  }
+  #branding h1 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  #nav-filter {
+    padding: 8px;
+    margin: 0 0 5px 0;
+    box-sizing: border-box;
+  }
+  #nav-sidebar {
+    padding: 5px;
+    flex: 0 0 265px;
+  }
+  .object-buttons a {
+    border-radius: 15px;
+  }
+  .object-buttons a:link, .object-buttons a:visited {
+    display: inline-block;
+    padding: 3px 12px;
+    background: var(--object-tools-bg);
+    color: var(--object-tools-fg);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+  .flex-row {
+    padding: 10px;
+    font-size: 13px;
+    display: flex!important
+  }
+  .fw-bold {
+    font-weight: bold;
+  }
+  .w-10px {width: 10px;}
+  .w-20px {width: 20px;}
+  .w-40px {width: 40px;}
+  .w-80px {width: 80px;}
+  .w-100px {width: 100px;}
+  .w-120px {width: 120px;}
+  .w-160px {width: 160px;}
+  .w-200px {width: 200px;}
+  .w-300px {width: 300px;}
+  .w-100 {width: 100%;}
+  .w-75 {width: 75%;}
+  .w-50 {width: 50%;}
+  .w-25 {width: 25%;}
+  .mb-3 {margin-bottom: 6px;}
+  .border-bottom {
+    border-bottom: 1px solid var(--hairline-color);
+  }
+  .submit-row a.button {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 15px;
+  }
+</style>
+{% endblock extrastyle %}
+
+{% block userlinks %}
+    {{ block.super }}
+{% endblock %}

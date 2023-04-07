@@ -1,0 +1,1 @@
+from coreplus import hooks

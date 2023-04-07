@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-09 09:53+0000\n"
+"PO-Revision-Date: 2022-11-10 15:20+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: coreplus/notices/admin.py:14 coreplus/notices/models.py:93
+msgid "Broadcasts"
+msgstr "Broadcasts"
+
+#: coreplus/notices/admin.py:25
+msgid "You don't have any permissions to send notifications"
+msgstr "Anda tidak memiliki permission untuk mengirim notifikasi"
+
+#: coreplus/notices/admin.py:32
+msgid "Notification #{} sent."
+msgstr "Notifikasi #{} dikirim."
+
+#: coreplus/notices/apps.py:9
+msgid "Notices"
+msgstr "Pemberitahuan"
+
+#: coreplus/notices/models.py:22 coreplus/notices/models.py:47
+msgid "User"
+msgstr "Pengguna"
+
+#: coreplus/notices/models.py:28
+msgid "Article Notice"
+msgstr "Pemberitahuan artikel"
+
+#: coreplus/notices/models.py:29
+msgid "Receive article notification"
+msgstr "Terima notifikasi pemberitahuan artikel"
+
+#: coreplus/notices/models.py:33
+msgid "Notification Preference"
+msgstr "Preferensi Pemberitahuan"
+
+#: coreplus/notices/models.py:34
+msgid "Notification Preferences"
+msgstr "Preferensi Pemberitahuan"
+
+#: coreplus/notices/models.py:51
+msgid "title"
+msgstr "judul"
+
+#: coreplus/notices/models.py:65
+msgid "Message"
+msgstr "Pesan"
+
+#: coreplus/notices/models.py:70
+msgid "Action URL"
+msgstr "Action URL"
+
+#: coreplus/notices/models.py:74
+msgid "Action Title"
+msgstr "Action Title"
+
+#: coreplus/notices/models.py:79
+msgid "created at"
+msgstr "created at"
+
+#: coreplus/notices/models.py:84
+msgid "last sent"
+msgstr "last sent"
+
+#: coreplus/notices/models.py:88
+msgid "Counter"
+msgstr "Counter"
+
+#: coreplus/notices/models.py:92
+msgid "Broadcast"
+msgstr "Broadcasts"

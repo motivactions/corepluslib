@@ -1,0 +1,71 @@
+{
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length", "88"],
+  "python.sortImports.args": ["--profile", "black"],
+  "python.linting.flake8Args": [
+    "--max-line-length=88",
+    "--ignore=E402,W503,W601"
+  ],
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  },
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/components/**/*.html": "django-html",
+    "**/themes/**/*.html": "django-html",
+    "**/templates/**/*.txt": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "type": "text",
+      "foreground": "#ffffff",
+      "background": "#197d22"
+    },
+    "FIXME": {
+      "gutterIcon": true,
+      "icon": "check",
+      "type": "line",
+      "foreground": "#ffffff",
+      "background": "#7d1919"
+    }
+  },
+  "esbonio.sphinx.confDir": ""
+}

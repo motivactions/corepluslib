@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-09 09:53+0000\n"
+"PO-Revision-Date: 2022-11-10 15:42+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: coreplus/contacts/abstracts.py:19
+msgid "Phone"
+msgstr "Telepon"
+
+#: coreplus/contacts/abstracts.py:20
+msgid "Fax"
+msgstr "Fax"
+
+#: coreplus/contacts/abstracts.py:21
+msgid "Mobile"
+msgstr "Mobile"
+
+#: coreplus/contacts/abstracts.py:22
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#: coreplus/contacts/abstracts.py:23
+msgid "Telegram"
+msgstr "Telegram"
+
+#: coreplus/contacts/abstracts.py:30
+msgid "type"
+msgstr "jenis"
+
+#: coreplus/contacts/abstracts.py:31
+msgid "E.g. Phone or mobile"
+msgstr "E.g. Phone or mobile"
+
+#: coreplus/contacts/abstracts.py:34 coreplus/contacts/abstracts.py:405
+#: coreplus/contacts/models.py:44
+msgid "Phone number"
+msgstr "Nomor Telepon"
+
+#: coreplus/contacts/abstracts.py:36
+msgid "Contact number"
+msgstr "Nomor kontak"
+
+#: coreplus/contacts/abstracts.py:66
+msgid "ISO 3166-1 alpha-2"
+msgstr "Phone number"
+
+#: coreplus/contacts/abstracts.py:71
+msgid "ISO 3166-1 alpha-3"
+msgstr "ISO 3166-1 alpha-3"
+
+#: coreplus/contacts/abstracts.py:76
+msgid "ISO 3166-1 numeric"
+msgstr "ISO 3166-1 numeric"
+
+#: coreplus/contacts/abstracts.py:83
+msgid "Country name"
+msgstr "Nama Negara"
+
+#: coreplus/contacts/abstracts.py:90
+msgid "Official name"
+msgstr "Nama official"
+
+#: coreplus/contacts/abstracts.py:95
+msgid "Display order"
+msgstr "Display order"
+
+#: coreplus/contacts/abstracts.py:99
+msgid "Higher the number, higher the country in the list."
+msgstr "Semakin tinggi, semakin tinggi urutan negara dalam list."
+
+#: coreplus/contacts/abstracts.py:104
+msgid "Is shipping country"
+msgstr "Adalah negara pengiriman"
+
+#: coreplus/contacts/abstracts.py:111 coreplus/contacts/abstracts.py:355
+msgid "Country"
+msgstr "Negara"
+
+#: coreplus/contacts/abstracts.py:112
+msgid "Countries"
+msgstr "Negara"
+
+#: coreplus/contacts/abstracts.py:338
+msgid "address"
+msgstr "alamat"
+
+#: coreplus/contacts/abstracts.py:344
+msgid "city"
+msgstr "kota"
+
+#: coreplus/contacts/abstracts.py:350
+msgid "province"
+msgstr "provinsi"
+
+#: coreplus/contacts/abstracts.py:358
+msgid "Post/Zip-code"
+msgstr "Kode Pos"
+
+#: coreplus/contacts/abstracts.py:365
+msgid "Geolocation Point"
+msgstr "Geolocation Point"
+
+#: coreplus/contacts/abstracts.py:383
+msgid "Mr"
+msgstr "Mr"
+
+#: coreplus/contacts/abstracts.py:384
+msgid "Miss"
+msgstr "Miss"
+
+#: coreplus/contacts/abstracts.py:385
+msgid "Mrs"
+msgstr "Mrs"
+
+#: coreplus/contacts/abstracts.py:386
+msgid "Ms"
+msgstr "Mrs"
+
+#: coreplus/contacts/abstracts.py:387
+msgid "Dr"
+msgstr "Mrs"
+
+#: coreplus/contacts/abstracts.py:390
+msgid "Title"
+msgstr "Judul"
+
+#: coreplus/contacts/abstracts.py:395
+msgid "Treatment Pronouns for the contact"
+msgstr "Kata ganti untuk kontak"
+
+#: coreplus/contacts/abstracts.py:398
+msgid "contact"
+msgstr "kontak"
+
+#: coreplus/contacts/abstracts.py:407 coreplus/contacts/models.py:46
+msgid "In case we need to call you about your order"
+msgstr "Mungkin kami perlu menghubungi anda tentang order anda"
+
+#: coreplus/contacts/abstracts.py:426
+msgid "Home"
+msgstr "Rumah"
+
+#: coreplus/contacts/abstracts.py:427
+msgid "Office"
+msgstr "Kantor"
+
+#: coreplus/contacts/abstracts.py:428
+msgid "Branch Office"
+msgstr "Kantor Cabang"
+
+#: coreplus/contacts/abstracts.py:429
+msgid "Billing"
+msgstr "Billing"
+
+#: coreplus/contacts/abstracts.py:430
+msgid "Shipping"
+msgstr "Shipping"
+
+#: coreplus/contacts/abstracts.py:431
+msgid "Dropshipping"
+msgstr "Dropshipping"
+
+#: coreplus/contacts/abstracts.py:432
+msgid "Deliverable"
+msgstr "Deliverable"
+
+#: coreplus/contacts/abstracts.py:433
+msgid "Else"
+msgstr "Lainnya"
+
+#: coreplus/contacts/abstracts.py:439
+msgid "name"
+msgstr "nama"
+
+#: coreplus/contacts/abstracts.py:440
+msgid "E.g. Shipping or billing"
+msgstr "E.g. Shipping or billing"
+
+#: coreplus/contacts/abstracts.py:446
+msgid "other name"
+msgstr "nama lainnya"
+
+#: coreplus/contacts/abstracts.py:447
+msgid "Other location name. E.g. Basecamp"
+msgstr "Nama lain dari lokasi  E.g. Basecamp"
+
+#: coreplus/contacts/abstracts.py:466
+msgid "Instructions"
+msgstr "Instruksi"
+
+#: coreplus/contacts/abstracts.py:467
+msgid "Tell us anything we should know when delivering your order."
+msgstr "Beri tahu kami apa pun yang harus kami ketahui saat mengirimkan pesanan Anda."
+
+#: coreplus/contacts/apps.py:10
+msgid "CorePlus Contacts"
+msgstr "Kontak CorePlus"
+
+#: coreplus/contacts/models.py:28 coreplus/contacts/models.py:59
+msgid "Linked object type"
+msgstr "Linked object type"
+
+#: coreplus/contacts/models.py:33 coreplus/contacts/models.py:64
+msgid "Linked instance primary key."
+msgstr "Linked instance primary key."
+
+#: coreplus/contacts/models.py:50
+msgid "Note"
+msgstr "Catatan"
+
+#: coreplus/contacts/models.py:51
+msgid "Tell us anything we should know."
+msgstr "Beri tahu kami semua yang harus kami ketahui."
+
+#: coreplus/contacts/models.py:79 coreplus/contacts/models.py:103
+#: coreplus/contacts/models.py:127
+msgid "Linked order"
+msgstr "Linked order"
+
+#: coreplus/contacts/models.py:84 coreplus/contacts/models.py:108
+#: coreplus/contacts/models.py:132
+msgid "Linked order primary key."
+msgstr "Linked order primary key."
+
+#: coreplus/contacts/models.py:92
+msgid "Shipping address"
+msgstr "Alamat pengiriman"
+
+#: coreplus/contacts/models.py:93
+msgid "Shipping addresses"
+msgstr "Alamat pengiriman"
+
+#: coreplus/contacts/models.py:116
+msgid "Billing address"
+msgstr "Alamat billing"
+
+#: coreplus/contacts/models.py:117
+msgid "Billing addresses"
+msgstr "Alamat billing"
+
+#: coreplus/contacts/models.py:140
+msgid "Deliverable address"
+msgstr "Alamat pengiriman"
+
+#: coreplus/contacts/models.py:141
+msgid "Deliverable addresses"
+msgstr "Alamat pengiriman"

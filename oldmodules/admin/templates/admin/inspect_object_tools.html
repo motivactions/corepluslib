@@ -1,0 +1,44 @@
+{% load i18n static admin_urls admin_modify %}
+
+{% url opts|admin_urlname:'print' object.pk|admin_urlquote as print_url %}
+{% if print_url %}
+  <li>
+    <a href="{% add_preserved_filters print_url is_popup to_field %}" class="printlink">
+      {% blocktranslate with cl.opts.verbose_name as name %}Print {{ name }}{% endblocktranslate %}
+    </a>
+  </li>
+{% endif %}
+
+{% url opts|admin_urlname:'history' object.pk|admin_urlquote as history_url %}
+<li>
+  <a href="{% add_preserved_filters history_url %}" class="historylink">
+    {% blocktranslate with cl.opts.verbose_name as name %}{{ name }} History{% endblocktranslate %}
+  </a>
+</li>
+
+{% if has_delete_permission %}
+  {% url opts|admin_urlname:'delete' object.pk|admin_urlquote as delete_url %}
+  <li>
+    <a href="{% add_preserved_filters delete_url %}" class="deletelink">
+      {% blocktranslate with cl.opts.verbose_name as name %}Delete {{ name }}{% endblocktranslate %}
+    </a>
+  </li>          
+{% endif %}
+
+{% if has_change_permission %}
+  {% url opts|admin_urlname:'change' object.pk|admin_urlquote as change_url %}
+  <li>
+    <a href="{% add_preserved_filters change_url is_popup to_field %}" class="editlink">
+      {% blocktranslate with cl.opts.verbose_name as name %}Edit {{ name }}{% endblocktranslate %}
+    </a>
+  </li>
+{% endif %}
+
+{% if has_add_permission %}
+<li>
+  {% url opts|admin_urlname:'add' as add_url %}
+  <a href="{% add_preserved_filters add_url is_popup to_field %}" class="addlink">
+    {% blocktranslate with cl.opts.verbose_name as name %}Add {{ name }}{% endblocktranslate %}
+  </a>
+</li>
+{% endif %}

@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-09 09:53+0000\n"
+"PO-Revision-Date: 2022-11-10 15:02+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: coreplus/navigators/apps.py:10
+msgid "Navigators"
+msgstr "Navigator"
+
+#: coreplus/navigators/models.py:34
+msgid ""
+"Menu Item can have a hierarchy. You might have a Music Item, and under that "
+"have children items for Jazz and Blues. Totally optional."
+msgstr ""
+"Item Menu dapat memiliki hierarki. Anda mungkin memiliki Item Musik, dan di "
+"bawahnya memiliki item Jazz dan Blues. Benar-benar opsional."
+
+#: coreplus/navigators/models.py:46
+msgid "label"
+msgstr "label"
+
+#: coreplus/navigators/models.py:55
+msgid "Icon"
+msgstr "Icon"
+
+#: coreplus/navigators/models.py:64
+msgid "Description"
+msgstr "Deskripsi"
+
+#: coreplus/navigators/models.py:70
+msgid "class names"
+msgstr "nama kelas"
+
+#: coreplus/navigators/models.py:74
+msgid "groups"
+msgstr "grup"
+
+#: coreplus/navigators/models.py:78
+msgid ""
+"The groups this menu belongs to. A menu will get all permissions granted to "
+"each of their groups."
+msgstr ""
+"Grup yang dimiliki menu ini. Sebuah menu akan mendapatkan izin yang ke "
+"masing-masing grup mereka."
+
+#: coreplus/navigators/models.py:91
+msgid "Menu"
+msgstr "Menu"
+
+#: coreplus/navigators/models.py:92
+msgid "Menus"
+msgstr "Menu"
+
+#: coreplus/navigators/models.py:123
+msgid "name"
+msgstr "nama"
+
+#: coreplus/navigators/models.py:136
+msgid "template"
+msgstr "template"
+
+#: coreplus/navigators/models.py:144
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: coreplus/navigators/models.py:145
+msgid "Placeholders"
+msgstr "Placeholder"
+
+#: coreplus/navigators/templatetags/navigators_tags.py:17
+#, python-format
+msgid "Menu `%s` doesn't exist!"
+msgstr "Menu `%s` tidak tersedia!"

@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-09 09:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: coreplus/reactions/apps.py:10
+msgid "CorePlus Reactions"
+msgstr ""
+
+#: coreplus/reactions/models.py:47
+msgid "like"
+msgstr ""
+
+#: coreplus/reactions/models.py:48
+msgid "love"
+msgstr ""
+
+#: coreplus/reactions/models.py:49
+msgid "pray"
+msgstr ""
+
+#: coreplus/reactions/models.py:50
+msgid "flap"
+msgstr ""
+
+#: coreplus/reactions/models.py:51
+msgid "funny"
+msgstr ""
+
+#: coreplus/reactions/models.py:52
+msgid "sad"
+msgstr ""
+
+#: coreplus/reactions/models.py:53
+msgid "angry"
+msgstr ""
+
+#: coreplus/reactions/models.py:72 coreplus/reactions/models.py:356
+msgid "value"
+msgstr ""
+
+#: coreplus/reactions/models.py:83
+msgid "Reaction"
+msgstr ""
+
+#: coreplus/reactions/models.py:84
+msgid "Reactions"
+msgstr ""
+
+#: coreplus/reactions/models.py:100
+msgid "reaction"
+msgstr ""
+
+#: coreplus/reactions/models.py:101
+msgid "JSON fields contains {\"like\": 1, \"love\":2, \"flap\":3}"
+msgstr ""
+
+#: coreplus/reactions/models.py:173
+msgid "bookmarked"
+msgstr ""
+
+#: coreplus/reactions/models.py:174
+msgid "Total bookmarked"
+msgstr ""
+
+#: coreplus/reactions/models.py:218
+msgid "reviewed object type"
+msgstr ""
+
+#: coreplus/reactions/models.py:223
+msgid "reviewed object ID"
+msgstr ""
+
+#: coreplus/reactions/models.py:235
+msgid "target object type"
+msgstr ""
+
+#: coreplus/reactions/models.py:240
+msgid "target object ID"
+msgstr ""
+
+#: coreplus/reactions/models.py:251 coreplus/reactions/models.py:366
+msgid "message"
+msgstr ""
+
+#: coreplus/reactions/models.py:263
+msgid "Review"
+msgstr ""
+
+#: coreplus/reactions/models.py:264
+msgid "Reviews"
+msgstr ""
+
+#: coreplus/reactions/models.py:286
+msgid "rating"
+msgstr ""
+
+#: coreplus/reactions/models.py:330
+msgid "spam"
+msgstr ""
+
+#: coreplus/reactions/models.py:331
+msgid "sexual"
+msgstr ""
+
+#: coreplus/reactions/models.py:332
+msgid "hate"
+msgstr ""
+
+#: coreplus/reactions/models.py:333
+msgid "violence"
+msgstr ""
+
+#: coreplus/reactions/models.py:334
+msgid "bullying"
+msgstr ""
+
+#: coreplus/reactions/models.py:335
+msgid "hoax"
+msgstr ""
+
+#: coreplus/reactions/models.py:336
+msgid "scam"
+msgstr ""
+
+#: coreplus/reactions/models.py:337
+msgid "illegal"
+msgstr ""
+
+#: coreplus/reactions/models.py:338
+msgid "others"
+msgstr ""
+
+#: coreplus/reactions/models.py:371
+msgid "Flag"
+msgstr ""
+
+#: coreplus/reactions/models.py:372
+msgid "Flags"
+msgstr ""
+
+#: coreplus/reactions/models.py:388
+msgid "flag"
+msgstr ""
+
+#: coreplus/reactions/models.py:389
+msgid "JSON fields contains {\"spam\": 1, \"hoax\":2, \"bullying\":3}"
+msgstr ""

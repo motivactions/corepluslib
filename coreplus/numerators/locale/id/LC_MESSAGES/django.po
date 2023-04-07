@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-09 09:53+0000\n"
+"PO-Revision-Date: 2022-11-10 15:21+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: coreplus/numerators/apps.py:10 coreplus/numerators/models.py:57
+msgid "Numerators"
+msgstr "Numerators"
+
+#: coreplus/numerators/models.py:30
+msgid "application"
+msgstr "aplikasi"
+
+#: coreplus/numerators/models.py:34
+msgid "model"
+msgstr "model"
+
+#: coreplus/numerators/models.py:40
+msgid "prefix"
+msgstr "prefix"
+
+#: coreplus/numerators/models.py:46
+msgid "reset mode"
+msgstr "reset mode"
+
+#: coreplus/numerators/models.py:52
+msgid "Counter"
+msgstr "Counter"
+
+#: coreplus/numerators/models.py:56
+msgid "Numerator"
+msgstr "Numerator"
+
+#: coreplus/numerators/models.py:125
+msgid "Reg number"
+msgstr "Reg number"
+
+#: coreplus/numerators/models.py:201
+msgid "Inner ID"
+msgstr "Inner ID"
+
+#: coreplus/numerators/models.py:206
+msgid "created at"
+msgstr "created at"

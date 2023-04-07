@@ -1,0 +1,62 @@
+{% extends 'admin/base_site.html' %}
+{% load i18n admin_urls static admin_modify settings_tags %}
+
+{% block coltype %}colMS{% endblock %}
+
+{% block extrahead %}{{ block.super }}
+<script src="{% url 'admin:jsi18n' %}"></script>
+{{ media }}
+{% endblock %}
+
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/forms.css" %}">{% endblock %}
+
+
+{% block content %}
+  {% get_settings %}
+  <div id="content-main">
+    <div class="row">
+      <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {% if form.non_field_errors %}<div class="errornote">{{ form.non_field_errors }}</div>{% endif %}
+        <fieldset class="module aligned">
+          {% for field in form %}
+              <div class="form-row">
+                <div{% if not line.fields|length_is:'1' %} class="fieldBox{% if field.name %} field-{{ field.name }}{% endif %}{% if not field.is_readonly and field.errors %} errors{% endif %}{% if field.is_hidden %} hidden{% endif %}"{% elif field.is_checkbox %} class="checkbox-row"{% endif %}>
+                  {% if not line.fields|length_is:'1' and not field.is_readonly %}{{ field.errors }}{% endif %}
+                  {% if field.is_checkbox %}
+                      {{ field }}{{ field.label_tag }}
+                  {% else %}
+                      {{ field.label_tag }}
+                      {% if field.is_readonly %}
+                          <div class="readonly">{{ field.contents }}</div>
+                      {% else %}
+                          {{ field }}
+                      {% endif %}
+                  {% endif %}
+                  {% if field.help_text %}
+                      <div class="help">{{ field.help_text|safe }}</div>
+                  {% endif %}
+                </div>
+              </div>
+            {% endfor %}
+        </fieldset>
+        <div class="submit-row mb-0">
+          <input type="submit" value="{% trans "Save" %}" class="default" name="_save">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="content-related">
+    {% get_settings_list as settings %}
+    <div class="module">
+      <h2>{% trans "Settings" %}</h2>
+      <ul>
+        {% for setting in settings %}
+        <li>
+          <a class="{% if setting.opts.model_name == opts.model_name %}active{% endif %}" href="{{ setting.url }}">{{ setting.label }}</a> 
+        </li>
+        {% endfor %}  
+      </ul>
+    </div>
+  </div>
+{% endblock %}

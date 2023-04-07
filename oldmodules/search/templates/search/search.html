@@ -1,0 +1,49 @@
+{% extends 'base_site_one.html' %}
+{% load i18n %}
+
+{% block bodyclass %}bg-white{% endblock %}
+
+{% block breadcrumb_items %}
+  {% if self.get_ancestors|length > 1 %}
+    {% for p in self.get_ancestors %}
+      {% if p.is_root is False %}
+        <li class="breadcrumb-item" aria-current="page"><a class="link-light" href="{{ p.url }}">{{ p.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  <li class="breadcrumb-item active">{{ self.name }}</li>
+{% endblock  %}
+
+{% block page_title %}
+  <h1 class="display-6">{% trans "Search Venue and Activity" %}</h1>
+{% endblock page_title %}
+
+{% block page_summary %}
+  {% trans "Explore and join event and activity by CorePlus trusted partners." %}
+  {% include 'search/search_form.html' %}
+{% endblock page_summary %}
+
+{% block main_column %}
+  {% block search_results %}
+    {% if query %}
+      <h3>Results</h3>
+
+      {% for result in page.object_list %}
+          <div><a href="{{ result.url }}">{{ result.name }}</a></div>
+          <div>{{ result.description|safe }}</div>
+      {% empty %}
+          <p>No results found.</p>
+      {% endfor %}
+
+      {% if page.has_previous or page.has_next %}
+          <div>
+              {% if page.has_previous %}<a href="?q={{ query }}&amp;page={{ page.previous_page_number }}">{% endif %}&laquo; Previous{% if page.has_previous %}</a>{% endif %}
+              |
+              {% if page.has_next %}<a href="?q={{ query }}&amp;page={{ page.next_page_number }}">{% endif %}Next &raquo;{% if page.has_next %}</a>{% endif %}
+          </div>
+      {% endif %}
+    {% else %}
+      {# Show some example queries to run, maybe query syntax, something else? #}
+    {% endif %}
+  {% endblock search_results %}
+{% endblock %}
